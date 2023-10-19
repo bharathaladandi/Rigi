@@ -1,0 +1,54 @@
+.container{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(229, 232, 235);
+}
+
+
+#topbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(216, 248, 247, 0.993);
+    text-align: center;
+    height: 50px;
+}
+
+#intopbar{
+    display: flex;
+}
+
+#intopbar > p{
+    /* display: flex; */
+    margin: auto;
+    justify-content: space-evenly;
+    padding: 0px 30px;
+}
+
+
+
+/* 2nd session */
+#secsession {
+    display: flex;
+    background-color: blue;
+    padding: 50px;
+}
+
+#innersecsession{
+    justify-content: space-evenly;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+
+/* 3rd session */
+
+.thirdsession{
+    text-align: center;
+}
+.innerthird{
+    display: flex;
+    justify-content: space-evenly;
+    color: blue;
+}
